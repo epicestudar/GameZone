@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/cadastroEventos.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="ri-home-3-fill"></i><span>GameZone</span></a>
+
+        <ul class="navbar">
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="produtor.html">Seja um Produtor</a></li>
+            <li><a href="faq.html">FAQ'S</a></li>
+            <li><a href="suporte.html">Suporte</a></li>
+        </ul>
+
+        <div class="main">
+            <a href="login.html" class="user"><i class="ri-user-3-fill"></i>Sign in</a>
+            <a href="cadastroCliente.html">Register</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container">
+        <div class="form-image">
+            <img src="imgCadastros/undraw_mobile_login_re_9ntv (1).svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                   
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="idade">Idade:</label>
+                        <input type="number" name="idade" id="idade" placeholder="Informe sua idade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Email" >Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">CPF:</label>
+                        <input type="tel" name="number" id="number" placeholder="xxx.xxx.xxx-xx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha:</label>
+                        <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Confirmpassword" >Confirme sua senha:</label>
+                        <input type="confirmPassword" name="confirmPassword" id="confirmPassword" placeholder="Digite sua senha" required>
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Evento escolhido: </h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">FIFA 24</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">CS 2</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="outros">
+                            <label for="outros">FORZA HORIZON 7</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div> <br><br><br><br><br><br><br><br><br><br>
+    
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h2>GameZone</h2>
+                <p>Onde os jogos ganham vida!</p>
+
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://twitter.com" class="footer-link" id="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="https://facebook.com" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+
+                <li>
+                    <a href="https://www.techtudo.com.br" class="footer-link">Tech</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Adventures</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Musics</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Products</h3>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Subscribe</h3>
+                <p>Coloque o seu e-mail para ser notificado sobre nossos novos eventos</p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button><i class="fa-regular fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            GameZone &#169
+            2023 all rights reserved
+        </div>
+    </footer>
+</body>
+<script src="js/home.js" defer></script>
+</html>

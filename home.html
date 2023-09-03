@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><i class="ri-home-3-fill"></i><span>GameZone</span></a>
+
+        <ul class="navbar">
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="produtor.html">Seja um Produtor</a></li>
+            <li><a href="faq.html">FAQ'S</a></li>
+            <li><a href="suporte.html">Suporte</a></li>
+        </ul>
+
+        <div class="main">
+            <a href="login.html" class="user"><i class="ri-user-3-fill"></i>Sign in</a>
+            <a href="cadastroCliente.html">Register</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <div class="container-slider">
+        <button id="prev-button"><img src="imgHome/arrow.png" alt="prev-button"></button>
+        <div class="container-images">
+            <img src="imgHome/joel.jpg" alt="" class="slider on">
+            <img src="imgSliders/slider.jpg" alt="" class="slider">
+            <img src="imgSliders/slider2.jpg" alt="" class="slider">
+        </div>
+        <button id="next-button"><img src="imgHome/arrow.png" alt="next-button"></button>
+    </div>
+
+    <div class="texto-eventos">
+        <h2>Eventos em destaque</h2>
+    </div>
+    <main class="cards">
+        <section class="card forza">
+            <div class="icon">
+                <img src="imgHome/forza.png" alt="forza">
+            </div>
+            <h3>Forza Horizon 7</h3>
+            <span>É apaixonado ou fã de jogos de carro? Então venha dirigir em alta velocidade (respeitando os limites
+                do trânsito, é claro :D) e se divirita com Forza Horizon 7, o novo jogo da Microsoft e que ainda não foi
+                lançado!. Isso, você só encontra na GameZone!</span>
+            <button><a href="cadastroEventos.html">Cadastre-se</a></button>
+        </section>
+
+        <section class="card csgo">
+            <div class="icon">
+                <img src="imgHome/csgo.png" alt="csgo">
+            </div>
+            <h3>CS 2</h3>
+            <span>É apaixonado por jogos de tiro e por Counter Strike? Está hypado para o lançamento do CS 2 que
+                acontecerá no segundo semestre? Então venha testar em primeira mão e trocar MUITO TIRO, com um
+                patrocínio EXCLUSIVO da Valve em nossa arena!</span>
+            <button><a href="cadastroEventos.html">Cadastre-se</a></button>
+        </section>
+
+        <section class="card fifa">
+            <div class="icon">
+                <img src="imgHome/fifa.png" alt="">
+            </div>
+            <h3>FIFA 24</h3>
+            <span>Gosta de jogos de futebol? Mais especificamente de FIFA? Então venha jogar com exclusividade FIFA 24,
+                testar suas novas mecânicas e os novos times que estarão no jogo e dar o seu feedback sobre o FIFA 24.
+                Isso você só encontra na GameZone!</span>
+            <button><a href="cadastroEventos.html">Cadastre-se</a></button>
+        </section>
+    </main><br><br><br><br><br><br><br><br>
+
+    <div class="futuro-eventos">
+        <h2>Próximos eventos</h2>
+    </div>
+
+    <section class="section1">
+        <section class="abla">
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper content">
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imgSliders/nintendo-switch (3).png" alt="">
+                            </div>
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+
+                            <div class="evento1">
+                                <h3>Nintendo</h3>
+                               <center> <span>Em breve, iremos sediar um evento exclusivo da Nintendo em território nacional.
+                                Caso queira participar, fique atento às nossas redes sociais, pois lá anunciaremos
+                                quando for possível realizar o pré-cadastro!</span></center>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imgSliders/playstation.png" alt="">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+
+
+
+
+                            <div class="evento1">
+                                <h3>Playstation</h3>
+                                <center> <span>Em breve, iremos sediar um evento exclusivo da Playstation em território nacional.
+                                    Caso queira participar, fique atento às nossas redes sociais, pois lá anunciaremos
+                                    quando for possível realizar o pré-cadastro!</span></center>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imgSliders/xbox (1).png" alt="">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+
+
+
+
+                            <div class="evento1">
+                                <h3>Xbox</h3>
+                                <center> <span>Em breve, iremos sediar um evento exclusivo da Microsoft em território nacional.
+                                    Caso queira participar, fique atento às nossas redes sociais, pois lá anunciaremos
+                                    quando for possível realizar o pré-cadastro!</span></center>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imgSliders/3xhumed-Mega-Games-Pack-39-Call-of-Duty-World-at-War-11.256.png"
+                                    alt="">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+
+                            <div class="evento1">
+                                <h3>Call of Duty</h3>
+                                <center> <span>É apaixonado por jogos de tiro? Então este evento com certeza é pra você. Embarque neste evento experimentando com exclusividade o novo jogo da franquia Call of Duty, além de claro, experimentar o novo mapa do Warzone! </span></center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imgSliders/3xhumed-Mega-Games-Pack-34-PES-2010-6.256.png" alt="">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+
+                            <div class="evento1">
+                                <h3>Pro Evolution Soccer</h3>
+                                <center> <span>É apaixonado por jogos de futebol? Então este evento com certeza é pra você. Embarque neste evento experimentando com exclusividade o novo jogo da franquia PES, além de claro, experimentar o novo modo da franquia! </span></center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imgSliders/3xhumed-Mega-Games-Pack-36-League-of-Legends-6.256.png" alt="">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+
+                            <div class="evento1">
+                                <h3>League of Legends</h3>
+                                <center> <span>É apaixonado por jogos estilo RPG? Então este evento com certeza é pra você. Embarque neste evento experimentando com exclusividade o novo jogo da franquia League of Legends. Vai ficar de fora dessa, Lolzero? </span></center>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imgSliders/Yellowicon-Game-Stars-Mario.256.png" alt="">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+
+                            <div class="evento1">
+                                <h3>Super Mario Bros</h3>
+                                <center> <span>É apaixonado pelos jogos da Nintendo, mais especificamente por Mario? Então embarque nessa experimentando com exclusividade o novo jogo do Mario, além de claro, adquirir os seus produtos na nossa loja! </span></center>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imgSliders/Yellowicon-Game-Stars-Zelda.256.png" alt="">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+
+                            <div class="evento1">
+                                <h3>The Legend of Zelda</h3>
+                                <center> <span>É apaixonado pelos jogos da Nintendo, mais especificamente por Zelda? Então embarque nessa experimentando com exclusividade o novo jogo do franquia, além de claro, adquirir os seus produtos na nossa loja!</span></center>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imgSliders/murderer.png" alt="">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+
+                            <div class="evento1">
+                                <h3>Noite do Terror</h3>
+                                <center> <span>Achou que íriamos esquecer de você, fã do terror? Achou errado! Embarque conosco na Noite do Terror experimentando apenas os melhores jogos de terror da atualidade! Prometemos muitos sustos e surpresas neste evento!</span></center>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section><br><br><br><br><br>
+
+    </section>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h2>GameZone</h2>
+                <p>Onde os jogos ganham vida!</p>
+
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://twitter.com" class="footer-link" id="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="https://facebook.com" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+
+                <li>
+                    <a href="https://www.techtudo.com.br" class="footer-link">Tech</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Adventures</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Musics</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Products</h3>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Subscribe</h3>
+                <p>Coloque o seu e-mail para ser notificado sobre nossos novos eventos</p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button><i class="fa-regular fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            GameZone &#169
+            2023 all rights reserved
+        </div>
+    </footer>
+</body>
+<script src="js/home.js" defer></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</html>
